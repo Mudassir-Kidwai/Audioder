@@ -6,8 +6,7 @@ var cors= require('cors');
 const db = require('../config/database');
 const Gig = require('../model/Gigs');
 
-//router.get('/convertToaudio', (req, res) => res.send("FIRST PAGE"))\
-//router.get('/gigs2', (req, res) => res.send("SECOND PAGE"))
+
 
 app.use(cors());
 app.use(
